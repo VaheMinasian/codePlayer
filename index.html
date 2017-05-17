@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CodePlayer</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+</head>
+<body>
+	<header id="navbar">
+		<nav>
+			<label id="codeplayer">CodePlayer</label>
+			<button class="navbuttons active" id="html">HTML</button>
+			<button class="navbuttons" id="css">CSS</button>
+			<button class="navbuttons" id="javascript">JavaScript</button>
+			<button class="navbuttons active" id="output">Output</button>
+		</nav>
+	</header>
+	<div>
+		<textarea id="htmlPanel" class="panel">
+		<p id="paragraph">Hello World!</p>
+		<h2 id="h2title">A sunny day!</h2>
+		<iframe id="website" src="https://bbc.com"></iframe>
+		</textarea>	
+		
+		<textarea id="cssPanel" class="panel hidden">
+		p{ 
+		color: green;
+		font-weight: bold;
+		font-size: 2em;
+		margin-left: 10px;
+		}
+		
+		h2{
+		background-color: greenyellow;
+		color: red;
+		width: 150px;
+		margin: 0 auto;
+		border: 3px solid orange;	
+		text-align: center;	
+		padding: 3px;
+		}
+		
+		#website{
+		width: 99%;
+		height: 400px;
+		}
+		</textarea>	
+		<textarea id="javascriptPanel" class="panel hidden">
+		document.getElementById("paragraph").innerHTML = "Hello, Vahe!";
+		document.getElementById("h2title").style.border = "thick solid #0000FF";
+		</textarea>	
+		<iframe id="outputPanel" class="panel"></iframe>
+	</div>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

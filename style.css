@@ -1,0 +1,67 @@
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#navbar{
+	background-color: #E8D9C7;
+
+}
+
+.navbuttons{
+	background-color: #328CE9;
+	text-align: center;
+	font-size: 1.2em;
+	border-radius: 10px;
+	margin: 6px 5px 6px 0px;
+
+}
+
+#codeplayer{
+	margin-right: 31%;
+	font-weight: bold;
+
+}
+
+#codeplayer{
+	font-size: 1.3em;
+	margin-left: 8px; 
+	font-family: "Verdana";
+	color: #808AB4;
+
+}
+
+.active{
+	background-color: #84C5F3;
+	color: #1550BC;
+}
+
+.highlightedButton{
+	background-color: #84C5F3;
+}
+
+.hidden{
+	display: none;
+}
+
+textarea{
+	resize: none;
+}
+
+.panel{
+	padding: 10px 0px 0px 0px;
+	margin-top: 5px;
+	border-top: none;
+	border-bottom: none;
+	border-left: none;
+	float: left;
+	width: 50%;
+	border-color: #9a9a9a;
+	border-width: 1.5px;
+}
+
+#htmlPanel{
+	padding-left: 10px;
+}
+
